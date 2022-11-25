@@ -58,9 +58,9 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\SpawnCube.cs" />
+    <Compile Include="Assets\Scripts\MonsterMovement.cs" />
     <Compile Include="Assets\Scripts\MovePlayerCam.cs" />
     <Compile Include="Assets\Scripts\PlayerCam.cs" />
-    <Compile Include="Assets\Scripts\MonsterMovement.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
