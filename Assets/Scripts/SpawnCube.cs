@@ -8,7 +8,7 @@ public class SpawnCube : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetButtonDown("Fire2"))
         {
             Vector3 randomPos = new Vector3(Random.Range(40f, -40f), 5, Random.Range(40f, -40f));
             Instantiate(cube, randomPos, Quaternion.identity);
