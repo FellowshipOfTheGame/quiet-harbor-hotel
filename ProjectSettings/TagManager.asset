@@ -3,20 +3,15 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-<<<<<<< HEAD
-  tags:
-  - Monster
-=======
   tags: []
->>>>>>> 36f0d27d752aa1d570bfbc1a2516da289079a7e8
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - whatIsGround
+  - 
   - Water
   - UI
-  - Monster
+  - 
   - 
   - 
   - 

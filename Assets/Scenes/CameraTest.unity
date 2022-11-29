@@ -122,11 +122,7 @@ NavMeshSettings:
     preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
-<<<<<<< HEAD
   m_NavMeshData: {fileID: 23800000, guid: b5aeb6a9ed2df814cbbd445b255c1cb2, type: 2}
-=======
-  m_NavMeshData: {fileID: 0}
->>>>>>> 36f0d27d752aa1d570bfbc1a2516da289079a7e8
 --- !u!1 &10934559
 GameObject:
   m_ObjectHideFlags: 0
@@ -321,11 +317,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-<<<<<<< HEAD
   m_StaticEditorFlags: 8
-=======
-  m_StaticEditorFlags: 0
->>>>>>> 36f0d27d752aa1d570bfbc1a2516da289079a7e8
   m_IsActive: 1
 --- !u!65 &138526139
 BoxCollider:
@@ -403,11 +395,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< HEAD
   m_RootOrder: 3
-=======
-  m_RootOrder: 1
->>>>>>> 36f0d27d752aa1d570bfbc1a2516da289079a7e8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &303426967
 GameObject:
@@ -422,11 +410,7 @@ GameObject:
   - component: {fileID: 303426970}
   m_Layer: 0
   m_Name: Player
-<<<<<<< HEAD
   m_TagString: Player
-=======
-  m_TagString: Untagged
->>>>>>> 36f0d27d752aa1d570bfbc1a2516da289079a7e8
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -463,11 +447,7 @@ Transform:
   - {fileID: 1471885101}
   - {fileID: 1660708825}
   m_Father: {fileID: 0}
-<<<<<<< HEAD
   m_RootOrder: 6
-=======
-  m_RootOrder: 4
->>>>>>> 36f0d27d752aa1d570bfbc1a2516da289079a7e8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &303426970
 MonoBehaviour:
@@ -679,11 +659,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< HEAD
   m_RootOrder: 11
-=======
-  m_RootOrder: 9
->>>>>>> 36f0d27d752aa1d570bfbc1a2516da289079a7e8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &461611803
 GameObject:
@@ -730,11 +706,7 @@ Transform:
   - {fileID: 46485039}
   - {fileID: 1951826337}
   m_Father: {fileID: 0}
-<<<<<<< HEAD
   m_RootOrder: 5
-=======
-  m_RootOrder: 3
->>>>>>> 36f0d27d752aa1d570bfbc1a2516da289079a7e8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &494584992
 GameObject:
@@ -975,11 +947,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< HEAD
   m_RootOrder: 9
-=======
-  m_RootOrder: 7
->>>>>>> 36f0d27d752aa1d570bfbc1a2516da289079a7e8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &752542136
 GameObject:
@@ -1201,11 +1169,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< HEAD
   m_RootOrder: 8
-=======
-  m_RootOrder: 6
->>>>>>> 36f0d27d752aa1d570bfbc1a2516da289079a7e8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &897793940
 GameObject:
@@ -1241,11 +1205,7 @@ RectTransform:
   - {fileID: 10934560}
   - {fileID: 2058232584}
   m_Father: {fileID: 0}
-<<<<<<< HEAD
   m_RootOrder: 10
-=======
-  m_RootOrder: 8
->>>>>>> 36f0d27d752aa1d570bfbc1a2516da289079a7e8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1329,13 +1289,8 @@ GameObject:
   m_Name: PlaceholderMonster
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-<<<<<<< HEAD
   m_NavMeshLayer: 2
   m_StaticEditorFlags: 8
-=======
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
->>>>>>> 36f0d27d752aa1d570bfbc1a2516da289079a7e8
   m_IsActive: 1
 --- !u!136 &971525863
 CapsuleCollider:
@@ -1414,11 +1369,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< HEAD
   m_RootOrder: 4
-=======
-  m_RootOrder: 2
->>>>>>> 36f0d27d752aa1d570bfbc1a2516da289079a7e8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1029755679
 GameObject:
@@ -1514,7 +1465,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
-<<<<<<< HEAD
 --- !u!1001 &1179784523
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1645,8 +1595,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5cf38332de2ac614c91a2f74761d64aa, type: 3}
-=======
->>>>>>> 36f0d27d752aa1d570bfbc1a2516da289079a7e8
 --- !u!1 &1330209590
 GameObject:
   m_ObjectHideFlags: 0
@@ -1916,11 +1864,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< HEAD
   m_RootOrder: 7
-=======
-  m_RootOrder: 5
->>>>>>> 36f0d27d752aa1d570bfbc1a2516da289079a7e8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2045179164
 MonoBehaviour:
@@ -1934,11 +1878,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ada5dce910554a24f865dee4e7b3c7ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
   cube: {fileID: 2909042200977977677, guid: 5cf38332de2ac614c91a2f74761d64aa, type: 3}
-=======
-  cube: {fileID: 2909042200977977677, guid: ecd9b1d9488cc3642a27066388b3b425, type: 3}
->>>>>>> 36f0d27d752aa1d570bfbc1a2516da289079a7e8
 --- !u!1 &2058232583
 GameObject:
   m_ObjectHideFlags: 0
