@@ -90,4 +90,8 @@ NavMeshProjectSettings:
     debug:
       m_Flags: 0
   m_SettingNames:
+<<<<<<< HEAD
   - Ground
+=======
+  - Humanoid
+>>>>>>> 36f0d27d752aa1d570bfbc1a2516da289079a7e8

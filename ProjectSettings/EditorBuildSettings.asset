@@ -6,6 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+<<<<<<< HEAD
     path: Assets/Scenes/GameOverScreen.unity
     guid: 6a25b5ffc90fe974783901a60c90a7f6
   - enabled: 1
@@ -17,4 +18,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CameraTest.unity
     guid: d90da51f2d80122409f43b0e8e897769
+=======
+    path: Assets/Scenes/Teste.unity
+    guid: 60522228213d4a84b9fedcfad2707ad9
+  - enabled: 1
+    path: Assets/Scenes/GameOverScreen.unity
+    guid: 6a25b5ffc90fe974783901a60c90a7f6
+>>>>>>> 36f0d27d752aa1d570bfbc1a2516da289079a7e8
   m_configObjects: {}
