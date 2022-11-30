@@ -20,7 +20,10 @@ public class MonsterMovement : MonoBehaviour
     {
         if (collision.collider.CompareTag("Player"))
         {
+            Cursor.lockState = CursorLockMode.Confined;
+            Cursor.visible = true;
             SceneManager.LoadScene("GameOverScreen");
+            SceneManager.UnloadSceneAsync(SceneManager.GetActiveScene().buildIndex);
         }
     }
 }
