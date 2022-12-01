@@ -59,7 +59,11 @@ public class PlayerMovement : MonoBehaviour
     {
         movementDirection = orientation.forward * verticalInput + orientation.right * horizontalInput;
 
-        rb.AddForce(movementDirection.normalized * moveSpeed * moveSpeedMultiplier, ForceMode.Force);
+        if (grounded)
+        {
+            rb.AddForce(movementDirection.normalized * moveSpeed * moveSpeedMultiplier, ForceMode.Force);
+        }
+        
     }
 
     private void SpeedControl()

@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class PhotoCapture : MonoBehaviour
 {
     [Header("Photo Taker")]
+    [SerializeField] private Camera defaultCam;
     [SerializeField] private Camera polaroidCam;
     [SerializeField] private Image photoDisplayArea;
     [SerializeField] private GameObject photoFrame;
@@ -28,28 +29,38 @@ public class PhotoCapture : MonoBehaviour
     private Vector3 defaultPosition = Vector3.zero;
     private Vector3 sideScale = new Vector3(0.4f, 0.4f);
     private Vector3 defaultScale = Vector3.one;
+    private float defaultFov;
 
     private bool viewingPhoto;
     private bool isMaximized;
     private bool cameraActive;
 
+    public float magnitude = 2;
+
     private void Start()
     {
-        screenCapture = new Texture2D(Screen.width, Screen.height, TextureFormat.RGB24, false); 
+        screenCapture = new Texture2D(Screen.width, Screen.height, TextureFormat.RGB24, false);
+        defaultFov = defaultCam.fieldOfView;
     }
 
     private void Update()
     {
 
+        polaroidCam.fieldOfView = defaultCam.fieldOfView;
+
         if (Input.GetButton("Fire2") && !isMaximized)
         {
             cameraActive = true;
             viewfinderInterface.SetActive(true);
+
+            defaultCam.fieldOfView = Mathf.Clamp(defaultCam.fieldOfView - (Input.mouseScrollDelta.y * magnitude), 30, 80);
+
         } else
         {
             cameraActive = false;
             viewfinderInterface.SetActive(false);
-        }               
+            defaultCam.fieldOfView = defaultFov;
+        }
 
         if (Input.GetButtonDown("Fire1"))
         {
