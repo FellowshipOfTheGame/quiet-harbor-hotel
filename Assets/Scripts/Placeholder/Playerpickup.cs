@@ -13,7 +13,7 @@ public class Playerpickup : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
 
-        if (collision.gameObject.GetComponent<Boltcutter>().isPickup)
+        if (collision.gameObject.GetComponent<Boltcutter>()?.isPickup ?? false)
         {
             containsItem = true;
             Destroy(collision.gameObject);
