@@ -66,8 +66,9 @@ public class PlayerMovement : MonoBehaviour
 
     private void Interact()
     {
-        if (Physics.Raycast(transform.position, _camera.forward, out var hitInfo, maxInteractDistance))
+        if (Physics.Raycast(_camera.position, _camera.forward, out var hitInfo, maxInteractDistance))
         {
+            Debug.Log(hitInfo.collider.name);
             if (hitInfo.collider.CompareTag("Interactable"))
             {
                 hitInfo.transform.GetComponent<InteractableObject>().Interact(transform);
@@ -81,7 +82,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (grounded)
         {
-            rb.AddForce(movementDirection.normalized * moveSpeed * moveSpeedMultiplier, ForceMode.Force);
+            rb.AddForce(moveSpeed * moveSpeedMultiplier * movementDirection.normalized, ForceMode.Force);
         }
         
     }

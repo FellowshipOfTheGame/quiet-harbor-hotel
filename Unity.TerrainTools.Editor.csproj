@@ -57,30 +57,63 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\NoiseLib\VoronoiNoise.cs" />
+    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\NoiseLib\PerlinNoise.cs" />
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\BrushControllers\IBrushModifierKeyController.cs" />
+    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\BrushControllers\IBrushRenderUnderCursor.cs" />
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainToolbox\TerrainToolboxVisualization.cs" />
+    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\WindErosionTool.cs" />
+    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\NoiseLib\API\NoiseTemplateImporter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\Compute\ComputeUtility.cs" />
+    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\RTHandleCollection.cs" />
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\FilterStack\FilterContext.cs" />
+    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\PaintHeightTool.cs" />
+    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\ThermalErosionTool.cs" />
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\Erosion\HydraulicEroder.cs" />
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\BrushControllers\DefaultBrushUIGroup.cs" />
+    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\FilterStack\Filter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\NoiseLib\Editor\NoiseWindow.cs" />
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\FilterStack\ConcavityFilter.cs" />
-    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\SetHeightTool.cs" />
+    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\NoiseLib\NoiseSettingsAssetEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\FilterStack\MultiplyFilter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\NoiseLib\NoiseBlitShaderGenerator.cs" />
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\PaintHolesTool.cs" />
+    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\SetHeightTool.cs" />
+    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\BrushControllers\IBrushUIGroup.cs" />
+    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\FilterStack\FilterStack.cs" />
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\FilterStack\FilterStackView.cs" />
+    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\NoiseFillShaderGenerator.cs" />
+    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\NoiseLib\Editor\NoiseFieldView.cs" />
+    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\BrushControllers\BrushStrengthVariator.cs" />
+    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainToolbox\Data\TerrainCreationSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\NoiseHeightTool.cs" />
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\AssemblyInfo.cs" />
+    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\PinchHeight.cs" />
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\CloneBrushTool.cs" />
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\BrushControllers\DefaultBrushModifierKeys.cs" />
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainToolbox\Data\TerrainVisualizationSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\NoiseLib\NoiseSettingsFactory.cs" />
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\BrushControllers\BaseBrushUIGroup.cs" />
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainToolbox\TerrainGroupInspector.cs" />
+    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\BridgeTool.cs" />
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\FilterStack\AbsFilter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\FilterStack\RemapFilter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\TerrainToolUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\Importers\TerrainToolsShaderImporter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\FilterStack\ClampFilter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\NoiseLib\Editor\ExportNoiseGUI.cs" />
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\TerrainFillUtility.cs" />
+    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\SharpenPeaksTool.cs" />
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\NoiseLib\NoiseComponentEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\Erosion\HydraulicErosionSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\FilterStack\BlurFilter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\NoiseLib\RidgeNoise.cs" />
+    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\BrushControllers\IBrushScatterController.cs" />
+    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\NoiseLib\API\NoiseShaderGenerator.cs" />
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\FilterStack\FilterUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\BrushControllers\IBrushEventHandler.cs" />
+    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\FilterStack\MinFilter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\BrushControllers\BrushRenderWithTerrainUiGroup.cs" />
+    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\PaintTextureTool.cs" />
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainToolbox\TerrainToolboxCreateTerrain.cs" />
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\NoiseLib\StrataFractalType.cs" />
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\FilterStack\NoiseFilter.cs" />
@@ -88,96 +121,63 @@
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\SmudgeHeight.cs" />
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\BrushControllers\BaseBrushVariator.cs" />
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\Erosion\WindEroder.cs" />
+    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\NoiseLib\Editor\NoiseEditorView.cs" />
+    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainToolbox\TerrainToolboxLayer.cs" />
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\FilterStack\AspectFilter.cs" />
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\BrushControllers\BrushRotationVariator.cs" />
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\BrushControllers\IBrushSpacingController.cs" />
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainToolbox\TerrainToolboxSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\FilterStack\NegateFilter.cs" />
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\NoiseLib\API\NoiseUtils.cs" />
-    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\GUI\TerrainToolGUIHelper.cs" />
-    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\NoiseLib\API\GeneratedShaderInfo.cs" />
-    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\BrushControllers\BrushJitterHandler.cs" />
-    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\Erosion\ErosionUtility.cs" />
-    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\NoiseLib\FbmFractalType.cs" />
-    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\SlopeFlattenTool.cs" />
-    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\FilterStack\Editor\FilterStackEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\HydroErosion.cs" />
-    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainToolbox\Data\TerrainPalette.cs" />
-    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\NoiseLib\NoiseComponent.cs" />
-    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\NoiseLib\API\NoiseLib.cs" />
-    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\StampTool.cs" />
-    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\BrushControllers\IBrushSizeController.cs" />
-    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\BrushControllers\BrushShortcutType.cs" />
-    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\NoiseLib\Editor\ExportNoiseWindow.cs" />
-    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\FilterStack\ComplementFilter.cs" />
-    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainToolbox\TerrainToolboxWindow.cs" />
-    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\BrushControllers\IBrushTerrainCache.cs" />
-    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\FilterStack\PowerFilter.cs" />
-    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\BrushControllers\BrushSizeVariator.cs" />
-    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainToolbox\ToolboxHelper.cs" />
-    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\Analytics\TerrainToolsAnalytics.cs" />
-    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\FilterStack\MaxFilter.cs" />
-    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\NoiseLib\PerlinNoise.cs" />
-    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\BrushControllers\IBrushRenderUnderCursor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\WindErosionTool.cs" />
-    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\NoiseLib\API\NoiseTemplateImporter.cs" />
-    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\Compute\ComputeUtility.cs" />
-    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\RTHandleCollection.cs" />
-    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\PaintHeightTool.cs" />
-    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\ThermalErosionTool.cs" />
-    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\FilterStack\Filter.cs" />
-    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\NoiseLib\Editor\NoiseWindow.cs" />
-    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\NoiseLib\NoiseSettingsAssetEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\FilterStack\MultiplyFilter.cs" />
-    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\NoiseLib\NoiseBlitShaderGenerator.cs" />
-    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\BrushControllers\IBrushUIGroup.cs" />
-    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\FilterStack\FilterStack.cs" />
-    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\NoiseFillShaderGenerator.cs" />
-    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\NoiseLib\Editor\NoiseFieldView.cs" />
-    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\BrushControllers\BrushStrengthVariator.cs" />
-    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainToolbox\Data\TerrainCreationSettings.cs" />
-    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\PinchHeight.cs" />
-    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\BridgeTool.cs" />
-    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\FilterStack\RemapFilter.cs" />
-    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\TerrainToolUtility.cs" />
-    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\FilterStack\ClampFilter.cs" />
-    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\NoiseLib\Editor\ExportNoiseGUI.cs" />
-    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\SharpenPeaksTool.cs" />
-    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\Erosion\HydraulicErosionSettings.cs" />
-    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\NoiseLib\RidgeNoise.cs" />
-    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\BrushControllers\IBrushScatterController.cs" />
-    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\NoiseLib\API\NoiseShaderGenerator.cs" />
-    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\FilterStack\MinFilter.cs" />
-    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\BrushControllers\BrushRenderWithTerrainUiGroup.cs" />
-    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\PaintTextureTool.cs" />
-    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\NoiseLib\Editor\NoiseEditorView.cs" />
-    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainToolbox\TerrainToolboxLayer.cs" />
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\BrushControllers\IBrushStrengthController.cs" />
+    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\GUI\TerrainToolGUIHelper.cs" />
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainToolbox\TerrainToolboxUtilities.cs" />
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\NoiseLib\API\NoiseType.cs" />
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\BrushControllers\IBrushRenderWithTerrain.cs" />
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\Erosion\ThermalEroder.cs" />
+    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\NoiseLib\API\GeneratedShaderInfo.cs" />
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\BrushControllers\BrushShortcutHandler.cs" />
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\NoiseLib\ValueNoise.cs" />
+    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\BrushControllers\BrushJitterHandler.cs" />
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\Erosion\Eroder.cs" />
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\NoiseLib\NoneFractalType.cs" />
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\TerraceErosion.cs" />
+    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\Erosion\ErosionUtility.cs" />
+    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\NoiseLib\FbmFractalType.cs" />
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\SamplesLinkPackageManagerExtension.cs" />
+    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\SlopeFlattenTool.cs" />
+    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\FilterStack\Editor\FilterStackEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\NoiseLib\NoiseSettingsGUI.cs" />
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\TwistHeight.cs" />
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainToolbox\Data\Heightmap.cs" />
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\NoiseLib\NoiseSettings.cs" />
+    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\HydroErosion.cs" />
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\BrushControllers\IBrushRotationController.cs" />
+    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainToolbox\Data\TerrainPalette.cs" />
+    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\NoiseLib\NoiseComponent.cs" />
+    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\NoiseLib\API\NoiseLib.cs" />
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\BrushControllers\IPaintContextRender.cs" />
+    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\StampTool.cs" />
+    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\BrushControllers\IBrushSizeController.cs" />
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\ContrastTool.cs" />
+    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\BrushControllers\BrushShortcutType.cs" />
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\BrushControllers\BrushSpacingVariator.cs" />
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\NoiseLib\API\FractalType.cs" />
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\NoiseLib\API\DimensionFlags.cs" />
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\FilterStack\SlopeFilter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\NoiseLib\Editor\ExportNoiseWindow.cs" />
+    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\FilterStack\ComplementFilter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainToolbox\TerrainToolboxWindow.cs" />
+    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\BrushControllers\IBrushTerrainCache.cs" />
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\BrushControllers\IBrushSmoothController.cs" />
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\FilterStack\AddFilter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\FilterStack\PowerFilter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\BrushControllers\BrushSizeVariator.cs" />
+    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainToolbox\ToolboxHelper.cs" />
+    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\Analytics\TerrainToolsAnalytics.cs" />
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\NoiseLib\API\HlslDescriptions.cs" />
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\BrushControllers\BrushScatterVariator.cs" />
+    <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\FilterStack\MaxFilter.cs" />
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\NoiseLib\BillowNoise.cs" />
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\BrushControllers\IBrushController.cs" />
     <Compile Include="Library\PackageCache\com.unity.terrain-tools@4.0.3\Editor\TerrainTools\SmoothHeightTool.cs" />
@@ -469,12 +469,6 @@
     <Reference Include="Unity.VisualScripting.YamlDotNet">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Burst.Unsafe">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.Unsafe.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Burst.Cecil.Mdb">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
     </Reference>
@@ -484,23 +478,29 @@
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Burst.Cecil.Pdb">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Burst.Cecil">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
-    </Reference>
     <Reference Include="log4netPlastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Burst.Cecil.Rocks">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Unsafe">
+      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Mdb">
+      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Pdb">
+      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil">
+      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Rocks">
+      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
@@ -894,13 +894,13 @@
       <Project>{574BC10D-7532-9210-55B1-6BBCEF3DA4B6}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{A7923762-0FD9-02DA-B417-068EDEF15F85}</Project>
-      <Name>UnityEditor.TestRunner</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
       <Project>{334CE385-27E1-8DB1-B443-2ED20DC7DC02}</Project>
       <Name>UnityEngine.TestRunner</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.TestRunner.csproj">
+      <Project>{A7923762-0FD9-02DA-B417-068EDEF15F85}</Project>
+      <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
