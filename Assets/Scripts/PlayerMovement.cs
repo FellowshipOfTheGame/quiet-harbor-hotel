@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -19,8 +20,13 @@ public class PlayerMovement : MonoBehaviour
     float horizontalInput;
     float verticalInput;
 
+    float maxInteractDistance = 15f;
+
     Vector3 movementDirection;
     Rigidbody rb;
+
+    [SerializeField]
+    Transform _camera;
 
 
     void Start()
@@ -53,6 +59,21 @@ public class PlayerMovement : MonoBehaviour
     {
         horizontalInput = Input.GetAxisRaw("Horizontal");
         verticalInput = Input.GetAxisRaw("Vertical");
+
+        if (Input.GetKeyDown(KeyCode.E))
+            Interact();
+    }
+
+    private void Interact()
+    {
+        if (Physics.Raycast(_camera.position, _camera.forward, out var hitInfo, maxInteractDistance))
+        {
+            Debug.Log(hitInfo.collider.name);
+            if (hitInfo.collider.CompareTag("Interactable"))
+            {
+                hitInfo.transform.GetComponent<InteractableObject>().Interact(transform);
+            }
+        }
     }
 
     private void MovePlayer()
@@ -61,7 +82,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (grounded)
         {
-            rb.AddForce(movementDirection.normalized * moveSpeed * moveSpeedMultiplier, ForceMode.Force);
+            rb.AddForce(moveSpeed * moveSpeedMultiplier * movementDirection.normalized, ForceMode.Force);
         }
         
     }
@@ -76,4 +97,5 @@ public class PlayerMovement : MonoBehaviour
             rb.velocity = new Vector3(limitedvel.x, limitedvel.y, limitedvel.z);
         }
     }
+
 }
