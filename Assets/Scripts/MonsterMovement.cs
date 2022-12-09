@@ -14,6 +14,7 @@ public class MonsterMovement : MonoBehaviour
     void Update()
     {
         agent.SetDestination(player.position);
+        agent.updateRotation = false;
     }
 
     void OnCollisionEnter(Collision collision)
