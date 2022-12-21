@@ -56,34 +56,25 @@
     <Analyzer Include="E:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\PhotoCapture.cs" />
     <Compile Include="Assets\Scripts\UI\ItemPickup.cs" />
     <Compile Include="Assets\Scripts\UI\Inventory.cs" />
     <Compile Include="Assets\Scripts\Placeholder\Boltcutter.cs" />
-    <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\Placeholder\Playerpickup.cs" />
     <Compile Include="Assets\Scripts\Player\PhotoCapture.cs" />
     <Compile Include="Assets\Scripts\UI\ItemController.cs" />
     <Compile Include="Assets\Scripts\UI\Respawner.cs" />
     <Compile Include="Assets\Scripts\DrawerController.cs" />
-    <Compile Include="Assets\Scripts\InteractableObject.cs" />
     <Compile Include="Assets\Scripts\Placeholder\InteractableObject.cs" />
-    <Compile Include="Assets\Scripts\PlayerCam.cs" />
-    <Compile Include="Assets\Scripts\KeyItem.cs" />
-    <Compile Include="Assets\Scripts\SpawnCube.cs" />
     <Compile Include="Assets\Scripts\Placeholder\Fence.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Placeholder\SpawnCube.cs" />
-    <Compile Include="Assets\Scripts\MovePlayerCam.cs" />
     <Compile Include="Assets\Scripts\UI\MainMenu.cs" />
     <Compile Include="Assets\Scripts\UI\InventoryManager.cs" />
     <Compile Include="Assets\Scripts\MonsterMovement.cs" />
     <Compile Include="Assets\Scripts\UI\Item.cs" />
     <Compile Include="Assets\Scripts\Player\MovePlayerCam.cs" />
-    <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerCam.cs" />
     <Compile Include="Assets\Scripts\AnimationController.cs" />
-    <Compile Include="Assets\Scripts\Respawner.cs" />
     <Compile Include="Assets\Scripts\DoorController.cs" />
     <Compile Include="Assets\Scripts\Placeholder\KeyItem.cs" />
   </ItemGroup>
