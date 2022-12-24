@@ -58,61 +58,61 @@
   <ItemGroup>
     <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Utility\ReflectionUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Interface\AttributeLayoutJsonEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Utility\Debug.cs" />
-    <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Interface\PolybrushMeshEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Utility\PolyGUI.cs" />
     <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Classes\ShaderMetaDataUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Classes\MirrorSettingsEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Utility\IconUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Classes\ColorPalette.cs" />
-    <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Classes\PrefabPalette.cs" />
-    <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Interface\PolybrushEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Utility\PrefUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Interface\MenuItems.cs" />
     <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Interface\ZoomOverrideEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Brush Modes\BrushModeMesh.cs" />
     <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Classes\PrefabAndSettings.cs" />
-    <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Utility\IconImporter.cs" />
     <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Brush Modes\BrushModeSculpt.cs" />
-    <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Brush Modes\BrushMode.cs" />
     <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Utility\Handles.cs" />
+    <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\ProBuilderIntegration\ProBuilderBridge.cs" />
+    <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Classes\PolybrushSettingsProvider.cs" />
+    <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Classes\Pref.cs" />
+    <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Classes\PolyAsset.cs" />
+    <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Utility\MeshPreview.cs" />
+    <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Classes\BrushTarget.cs" />
+    <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Interface\PrefabLoadoutEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Utility\ShaderUtil.cs" />
+    <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Brush Modes\BrushModeTexture.cs" />
+    <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Brush Modes\BrushModePaint.cs" />
+    <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Classes\AttributeLayout.cs" />
+    <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Utility\BakeAdditionalVertexStreams.cs" />
+    <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Classes\RaycastHit.cs" />
+    <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Classes\ProBuilderInterface.cs" />
+    <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Interface\SplatWeightEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Enum\BrushTool.cs" />
+    <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Interface\ColorPaletteEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Utility\Debug.cs" />
+    <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Interface\PolybrushMeshEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Utility\PolyGUI.cs" />
+    <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Utility\IconUtility.cs" />
+    <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Classes\PrefabPalette.cs" />
+    <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Interface\PolybrushEditor.cs" />
+    <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Utility\PrefUtility.cs" />
+    <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Utility\IconImporter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Brush Modes\BrushMode.cs" />
     <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Interface\BrushSettingsEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Utility\EditorUtility.cs" />
     <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Classes\SplatSet.cs" />
     <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Interface\HierarchyChanged.cs" />
     <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Classes\ConfigurableWindow.cs" />
-    <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\ProBuilderIntegration\ProBuilderBridge.cs" />
     <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Utility\PreviewDatabase.cs" />
-    <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Classes\PolybrushSettingsProvider.cs" />
     <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Classes\LoadoutInfo.cs" />
     <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Utility\SceneUtility.cs" />
-    <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Classes\Pref.cs" />
-    <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Classes\PolyAsset.cs" />
     <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Brush Modes\BrushModeSmooth.cs" />
     <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Brush Modes\BrushModeRaiseLower.cs" />
     <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Interface\PreferenceDictionaryEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Utility\MeshPreview.cs" />
-    <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Classes\BrushTarget.cs" />
-    <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Interface\PrefabLoadoutEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Utility\ShaderUtil.cs" />
     <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Classes\SplatWeight.cs" />
     <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Utility\PostProcessPrefabs.cs" />
     <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Classes\BrushSettings.cs" />
-    <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Brush Modes\BrushModeTexture.cs" />
-    <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Brush Modes\BrushModePaint.cs" />
-    <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Classes\AttributeLayout.cs" />
-    <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Utility\BakeAdditionalVertexStreams.cs" />
     <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Interface\PrefabPaletteEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\AssemblyInfo.cs" />
-    <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Classes\RaycastHit.cs" />
     <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Brush Modes\BrushModePrefab.cs" />
-    <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Classes\ProBuilderInterface.cs" />
     <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Classes\PolybrushSettings.cs" />
     <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Utility\PolyGUILayout.cs" />
-    <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Interface\SplatWeightEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Enum\BrushTool.cs" />
     <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Classes\PreferenceDictionary.cs" />
-    <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Interface\ColorPaletteEditor.cs" />
     <Compile Include="Library\PackageCache\com.unity.polybrush@1.1.2\Editor\Classes\EditableObject.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -383,6 +383,12 @@
     <Reference Include="Unity.VisualScripting.YamlDotNet">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Burst.Unsafe">
+      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Mdb">
+      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
     </Reference>
@@ -392,29 +398,23 @@
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
     </Reference>
-    <Reference Include="log4netPlastic">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Burst.Unsafe">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.Unsafe.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Burst.Cecil.Mdb">
-      <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Burst.Cecil.Pdb">
       <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil">
       <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
     </Reference>
+    <Reference Include="log4netPlastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Burst.Cecil.Rocks">
       <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
@@ -812,13 +812,13 @@
       <Project>{574BC10D-7532-9210-55B1-6BBCEF3DA4B6}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
-    <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{334CE385-27E1-8DB1-B443-2ED20DC7DC02}</Project>
-      <Name>UnityEngine.TestRunner</Name>
-    </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
       <Project>{A7923762-0FD9-02DA-B417-068EDEF15F85}</Project>
       <Name>UnityEditor.TestRunner</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.TestRunner.csproj">
+      <Project>{334CE385-27E1-8DB1-B443-2ED20DC7DC02}</Project>
+      <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

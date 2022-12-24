@@ -6,8 +6,8 @@ public class DoorController : InteractableObject
 {
     [SerializeField]
     private Animator door;
-    private bool isOpen = false;
-    public override void Interact(Transform player)
+    public bool isOpen = false;
+    public override void Interact(Transform player, RaycastHit hit)
     {
         if (isOpen)
         {

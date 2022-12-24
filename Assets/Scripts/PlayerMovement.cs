@@ -20,7 +20,7 @@ public class PlayerMovement : MonoBehaviour
     float horizontalInput;
     float verticalInput;
 
-    float maxInteractDistance = 15f;
+    float maxInteractDistance = 2f;
 
     Vector3 movementDirection;
     Rigidbody rb;
@@ -60,7 +60,7 @@ public class PlayerMovement : MonoBehaviour
         horizontalInput = Input.GetAxisRaw("Horizontal");
         verticalInput = Input.GetAxisRaw("Vertical");
 
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.Mouse0) || Input.GetKeyDown(KeyCode.E))
             Interact();
     }
 
@@ -68,10 +68,9 @@ public class PlayerMovement : MonoBehaviour
     {
         if (Physics.Raycast(_camera.position, _camera.forward, out var hitInfo, maxInteractDistance))
         {
-            Debug.Log(hitInfo.collider.name);
             if (hitInfo.collider.CompareTag("Interactable"))
             {
-                hitInfo.transform.GetComponent<InteractableObject>().Interact(transform);
+                hitInfo.transform.GetComponent<InteractableObject>().Interact(transform, hitInfo);
             }
         }
     }

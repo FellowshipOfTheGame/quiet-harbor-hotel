@@ -56,18 +56,18 @@
     <Analyzer Include="G:\Arquivos de Programas\Visual Studio\Visual Studio\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.5.2\Runtime\Core\DynamicDependency\PreserveDependencyAttribute.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.5.2\Runtime\Core\Utils\UnityThreadUtils.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.5.2\Runtime\Core\IUnityServices.cs" />
+    <Compile Include="Library\PackageCache\com.unity.services.core@1.5.2\Runtime\Core\Initialization\InitializationOptions.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.5.2\Runtime\Core\Initialization\UnityProjectNotLinkedException.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.5.2\Runtime\Core\Initialization\ServicesInitializationException.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.5.2\Runtime\Core\ExternalUserIdProperty.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.5.2\Runtime\Core\UnityServices.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.5.2\Runtime\Core\CommonErrorCodes.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.5.2\Runtime\Core\AssemblyInfo.cs" />
-    <Compile Include="Library\PackageCache\com.unity.services.core@1.5.2\Runtime\Core\DynamicDependency\PreserveDependencyAttribute.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.5.2\Runtime\Core\RequestFailedException.cs" />
     <Compile Include="Library\PackageCache\com.unity.services.core@1.5.2\Runtime\Core\Initialization\ServicesInitializationState.cs" />
-    <Compile Include="Library\PackageCache\com.unity.services.core@1.5.2\Runtime\Core\Utils\UnityThreadUtils.cs" />
-    <Compile Include="Library\PackageCache\com.unity.services.core@1.5.2\Runtime\Core\IUnityServices.cs" />
-    <Compile Include="Library\PackageCache\com.unity.services.core@1.5.2\Runtime\Core\Initialization\InitializationOptions.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Library\PackageCache\com.unity.services.core@1.5.2\Runtime\Core\Unity.Services.Core.asmdef" />
@@ -277,9 +277,6 @@
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\AOT\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Burst.Unsafe">
       <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.Unsafe.dll</HintPath>
     </Reference>
@@ -294,6 +291,9 @@
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Rocks">
       <HintPath>Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>G:\Arquivos de Programas\UnityEditor\2021.3.13f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>

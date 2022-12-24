@@ -6,5 +6,5 @@ public abstract class InteractableObject : MonoBehaviour
     {
         gameObject.tag = "Interactable";
     }
-    public abstract void Interact(Transform player);
+    public abstract void Interact(Transform player, RaycastHit hit);
 }

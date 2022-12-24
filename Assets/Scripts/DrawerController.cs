@@ -7,7 +7,7 @@ public class DrawerController : InteractableObject
     [SerializeField]
     private Animator drawer;
     private bool isOpen = false;
-    public override void Interact(Transform player)
+    public override void Interact(Transform player, RaycastHit hit)
     {
         if (isOpen)
         {
